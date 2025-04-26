@@ -57,8 +57,8 @@ const styles = StyleSheet.create({
   },
   flagImage: {
     width: "100%",
-    aspectRatio: 2, // Ajustar el aspecto de la bandera
-    resizeMode: "cover", // Ajustar la imagen para cubrir toda el área
+    aspectRatio: 2, 
+    resizeMode: "cover", 
     borderColor: "#000000",
   },
 });

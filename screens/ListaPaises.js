@@ -80,7 +80,7 @@ const ListaPaises = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      {/* Campo de búsqueda */}
+
       <TextInput
         style={styles.searchInput}
         placeholder="Buscar por nombre o código de país"
@@ -118,12 +118,12 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   countryCard: {
-    width: windowWidth / 2 - 15, // Ajusta el ancho para mostrar dos países por fila
+    width: windowWidth / 2 - 15, 
     margin: 5,
     borderRadius: 8,
     borderWidth: 1,
     borderColor: "#ddd",
-    overflow: "hidden", // Para que la bandera no sobresalga del borde
+    overflow: "hidden",
   },
   countryInfo: {
     justifyContent: "center",
@@ -132,8 +132,8 @@ const styles = StyleSheet.create({
   },
   flagImage: {
     width: "100%",
-    aspectRatio: 2, // Ajustar el aspecto de la bandera
-    resizeMode: "cover", // Ajustar la imagen para cubrir toda el área
+    aspectRatio: 2,
+    resizeMode: "cover", 
   },
   countryName: {
     fontSize: 16,

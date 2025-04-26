@@ -5,6 +5,9 @@ const DetalleMaravillas = ({ route, navigation }) => {
   const { tips } = route.params;
   console.log(tips);
   return (
+
+
+    
     <ScrollView>
       <View style={styles.container}>
         <Text style={styles.heading}>{tips.nombre}</Text>
@@ -65,8 +68,8 @@ const styles = StyleSheet.create({
   },
   imagen: {
     width: "100%",
-    aspectRatio: 2, // Ajustar el aspecto de la bandera
-    resizeMode: "cover", // Ajustar la imagen para cubrir toda el área
+    aspectRatio: 2, 
+    resizeMode: "cover",
     borderColor: "#000000",
   },
   map: { flex: 1, height: 300 },
